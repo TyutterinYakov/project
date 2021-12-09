@@ -41,6 +41,7 @@ public class AddressService implements AddressDao{
 				adid = rst.getLong(1);
 				
 			}
+			rst.close();
 
 		} catch (SQLException e) {
 			e.printStackTrace();
